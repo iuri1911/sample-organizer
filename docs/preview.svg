@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="600" viewBox="0 0 700 600" font-family="Menlo, Consolas, monospace">
+  <rect width="700" height="600" rx="12" fill="#1c1c1e"/>
+  <!-- title bar -->
+  <rect width="700" height="38" rx="12" fill="#2c2c2e"/>
+  <rect y="20" width="700" height="18" fill="#2c2c2e"/>
+  <circle cx="22" cy="19" r="6" fill="#ff5f57"/>
+  <circle cx="42" cy="19" r="6" fill="#febc2e"/>
+  <circle cx="62" cy="19" r="6" fill="#28c840"/>
+  <text x="90" y="24" fill="#9aa0a6" font-size="13">Sample Organizer</text>
+
+  <!-- ascii banner -->
+  <g fill="#3b82f6" font-size="11" font-weight="bold">
+    <text x="24" y="70" xml:space="preserve"> ___ _   _ ___ ___   ___ ___</text>
+    <text x="24" y="84" xml:space="preserve">|_ _| | | | _ \_ _| |_ _/ _ \</text>
+    <text x="24" y="98" xml:space="preserve"> | || |_| |   /| | _ | | (_) |   SAMPLE ORGANIZER</text>
+    <text x="24" y="112" xml:space="preserve">|___|\___/|_|_\___(_)___\___/    by IURI.IO</text>
+  </g>
+
+  <!-- folder rows -->
+  <g>
+    <rect x="24" y="134" width="652" height="40" rx="8" fill="#2c2c2e"/>
+    <text x="40" y="151" fill="#777" font-size="11">Working (local)</text>
+    <text x="40" y="166" fill="#e8e8e8" font-size="13">~/Documents/Samples</text>
+    <rect x="586" y="146" width="78" height="22" rx="6" fill="#1c1c1e" stroke="#3a3a3c"/>
+    <text x="600" y="161" fill="#e8e8e8" font-size="12">Choose</text>
+
+    <rect x="24" y="180" width="652" height="40" rx="8" fill="#2c2c2e"/>
+    <text x="40" y="197" fill="#777" font-size="11">Backup (iCloud)</text>
+    <text x="40" y="212" fill="#e8e8e8" font-size="13">~/Library/Mobile Documents/.../Samples</text>
+    <rect x="586" y="192" width="78" height="22" rx="6" fill="#1c1c1e" stroke="#3a3a3c"/>
+    <text x="600" y="207" fill="#e8e8e8" font-size="12">Choose</text>
+  </g>
+
+  <!-- counts -->
+  <g font-family="Helvetica, Arial, sans-serif">
+    <rect x="24" y="234" width="158" height="48" rx="8" fill="#2c2c2e"/>
+    <text x="38" y="252" fill="#9aa0a6" font-size="11">Drums</text><text x="38" y="272" fill="#e8e8e8" font-size="16" font-weight="bold">6,030</text>
+    <rect x="190" y="234" width="158" height="48" rx="8" fill="#2c2c2e"/>
+    <text x="204" y="252" fill="#9aa0a6" font-size="11">Melodic</text><text x="204" y="272" fill="#e8e8e8" font-size="16" font-weight="bold">5,807</text>
+    <rect x="356" y="234" width="158" height="48" rx="8" fill="#2c2c2e"/>
+    <text x="370" y="252" fill="#9aa0a6" font-size="11">Percussion</text><text x="370" y="272" fill="#e8e8e8" font-size="16" font-weight="bold">2,085</text>
+    <rect x="522" y="234" width="154" height="48" rx="8" fill="#2c2c2e"/>
+    <text x="536" y="252" fill="#9aa0a6" font-size="11">FX</text><text x="536" y="272" fill="#e8e8e8" font-size="16" font-weight="bold">1,580</text>
+  </g>
+
+  <!-- steps -->
+  <g font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#e8e8e8">
+    <text x="24" y="312">☑ 0 · Extract disc images / archives</text>
+    <text x="24" y="334">☑ 1 · Classify by name</text>
+    <text x="24" y="356">☑ 2 · Classify by audio (_Unsorted)</text>
+    <text x="24" y="376" fill="#9aa0a6" font-size="11">Archiving to _Docs always runs last.</text>
+  </g>
+
+  <!-- progress -->
+  <text x="24" y="404" fill="#9aa0a6" font-size="12" font-family="Helvetica, Arial, sans-serif">Classifying by audio · 68%</text>
+  <rect x="24" y="412" width="652" height="8" rx="4" fill="#2c2c2e"/>
+  <rect x="24" y="412" width="443" height="8" rx="4" fill="#3b82f6"/>
+
+  <!-- log -->
+  <rect x="24" y="432" width="652" height="96" rx="8" fill="#000000" stroke="#3a3a3c"/>
+  <g font-size="11" fill="#9aa0a6">
+    <text x="38" y="452">&gt;&gt; EXTRACT — 2 found, 2 pending</text>
+    <text x="38" y="470">  ok scd-pe1: 833 file(s)  [root]</text>
+    <text x="38" y="488">&gt;&gt; NAME — 1,204 audio files classified</text>
+    <text x="38" y="506" fill="#e8e8e8">&gt;&gt; AUDIO — analyzing 1,860 file(s)</text>
+  </g>
+
+  <!-- buttons -->
+  <rect x="24" y="548" width="320" height="34" rx="8" fill="#1c1c1e" stroke="#3b82f6" stroke-width="2"/>
+  <text x="130" y="570" fill="#e8e8e8" font-size="13" font-family="Helvetica, Arial, sans-serif">▶  Organize all</text>
+  <rect x="356" y="548" width="240" height="34" rx="8" fill="#1c1c1e" stroke="#3a3a3c"/>
+  <text x="392" y="570" fill="#e8e8e8" font-size="13" font-family="Helvetica, Arial, sans-serif">☁  Backup to iCloud</text>
+</svg>

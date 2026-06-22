@@ -1,7 +1,17 @@
 # Sample Organizer
 
+[![CI](https://github.com/iuri1911/sample-organizer/actions/workflows/tests.yml/badge.svg)](https://github.com/iuri1911/sample-organizer/actions/workflows/tests.yml)
+![Version](https://img.shields.io/badge/version-1.0.0-blue)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+![Python](https://img.shields.io/badge/python-3.8%2B-blue)
+![Platform](https://img.shields.io/badge/platform-macOS%20%7C%20Linux%20%7C%20Windows-lightgrey)
+
 A deterministic, tested pipeline that turns a messy pile of audio sample packs —
 including old sample-CD disc images — into a clean, type-based library.
+
+## Preview
+
+![Sample Organizer app](docs/preview.svg)
 
 ```
  ___ _   _ ___ ___   ___ ___
