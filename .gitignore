@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# App state / logs
+_app_config.json
+_logs/
+
+# A sample library should never be committed to the tool repo
+Drums/
+Percussion/
+Bass/
+Melodic/
+Vocals/
+FX/
+_Unsorted/
+_Libraries/
+_Docs & Disc Images/
+_extracted.log
+
+# Audio / disc images / archives
+*.wav
+*.aif
+*.aiff
+*.flac
+*.mp3
+*.ogg
+*.iso
+*.bin
+*.cue
+*.nrg
+*.mdf
+*.mds
+*.img
+*.zip
+*.rar
+*.7z
+
+# OS junk
+.DS_Store
+__MACOSX/
+._*
