@@ -11,7 +11,7 @@ including old sample-CD disc images — into a clean, type-based library.
 
 ## Preview
 
-![Sample Organizer app](docs/preview.svg)
+![Sample Organizer app](docs/preview.png)
 
 ```
  ___ _   _ ___ ___   ___ ___
